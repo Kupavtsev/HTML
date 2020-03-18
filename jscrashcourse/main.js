@@ -239,4 +239,21 @@ switch(color) {
         break;
 }
 
-//54:03
+// ---          Functions           ---
+
+/* 
+function addNums(num1 = 1, num2 = 1) {      // we can use default values as in Python
+    //console.log(num1 + num2)
+    return num1 + num2
+}
+// we call the function 55min
+console.log(addNums(5,4));
+*/
+// function to array
+const addNums = (num1 = 1, num2 = 1) => num1 + num2;
+console.log(addNums(5,5));
+//2
+const addNums2 = num3 => num3 + 10;
+console.log(addNums2(5));
+
+// ---          OOP 59:27        ---
